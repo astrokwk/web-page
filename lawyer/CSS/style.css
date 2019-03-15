@@ -1,0 +1,157 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ------------ Header ------------------- */
+header {
+  background-image: url('../LawyersPicture/chess.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+}
+
+.headerContent {
+  color: white;
+  font-family: serif;
+  padding-top: 15vh;
+  padding-left: 5%;
+}
+
+.headerContent > h1 {
+  -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  color: white;
+  font-size: 5.5vw;
+  text-shadow: 3px 3px black;
+} 
+
+.headerContent > h3 {
+  text-shadow: 2px 2px black;
+  font-size: 2.5vw;
+  padding-left: 5%;
+  -webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.practiceArea, 
+.vision, 
+.attorney,
+.brand,
+.award,
+.contactUs,
+footer { text-align: center; }
+
+.container {  padding: 40px 0px; }
+
+.h2 {
+  color: #00a47d;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-right: 0px; 
+  margin-left: 0px; 
+}
+
+/* ------------ Practice Area ------------------- */
+.col-sm-4 {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.col-sm-4 > p { text-align: left; }
+
+.col-sm-4 > .glyphicon {
+  color: rgb(0,133,101);
+  font-size: 50px;
+}
+
+/* ------------ Our Vison ------------------- */
+.vision {
+  background-color: rgb(0,164,125);
+  text-align: center;
+  color: white;
+}
+
+.vision > .container > h2 { color: white; }
+
+.col-sm-10 {  text-align: left; }
+
+.col-sm-10 > p {  margin-top: 20px;}
+
+/* ------------ Attorney ------------------- */
+
+.attorneyBox {
+  padding: 20px;
+}
+
+/* ------------ Brand ------------------- */
+
+.brand-container, 
+.award > .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.brand-container > a > img {
+  width: 250px;
+  height: auto;
+  margin: 50px 0px;
+}
+
+/* ------------ Contact Us ------------------- */
+.contactUs {  background-color: rgb(0,190,144); }
+
+.contactUs > .container > h2 {  color: white; }
+
+.contactInfo {
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 18px;
+}
+
+.contactInfo >p >span { padding: 10px; }
+
+.googleReview { margin-top: 30px; }
+
+.btn-info {
+  background-color: #007156;
+  border-color: #007156;
+}
+
+/* ------------ Footer ------------------- */
+footer {
+  color: white;
+  background-color: rgb(0,190,144);
+  padding: 0px 0px 40px;
+}
