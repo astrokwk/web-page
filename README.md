@@ -10,8 +10,7 @@ Hi!, this is where I create web pages with different theme.
 - **Lawyer** - [Law Firm](https://astrokwk.github.io/web-page/lawyer/)
 <br />Created using Bootstrap
 
-- **Portfolio** - [Web Developer Portfolio] 
-(https://astrokwk.github.io/web-page/portfolio/)
+- **Portfolio** - [Web Developer Portfolio](https://astrokwk.github.io/web-page/portfolio/)
 <br />First personal portfolio to showcase my projects
 
 - **Plant** - [Flower Shop](https://astrokwk.github.io/web-page/plant/)
